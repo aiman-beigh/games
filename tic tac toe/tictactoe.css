@@ -1,0 +1,30 @@
+.box{
+    width: 90px;
+    height: 90px;
+    border: 2px solid black ;
+    line-height:90px ;
+    font-size: 50px;
+      box-shadow: 0 0 0 2px;
+      cursor: pointer;
+}
+
+
+button{
+   width: 90px;
+   height: 30px;
+   margin-top: 5px;
+   
+}
+.gameContainer{
+    height: 278px;
+    width: 278px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+  
+  
+    }
+    body{
+      text-align: center;
+    }
